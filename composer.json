@@ -1,0 +1,35 @@
+{
+    "name": "dvonrohr/ux-calendar",
+    "type": "symfony-bundle",
+    "description": "Calendar integration for Symfony UX",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Rudolf von Rohr",
+            "email": "d.rudolf.von.rohr@gmail.com"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "symfony/config": "^4.4.17|^5.0",
+        "symfony/dependency-injection": "^4.4.17|^5.0",
+        "symfony/http-kernel": "^4.4.17|^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5",
+        "symfony/framework-bundle": "^4.4.17|^5.0",
+        "symfony/twig-bundle": "^4.4.17|^5.0",
+        "symfony/var-dumper": "^4.4.17|^5.0"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    }
+}
